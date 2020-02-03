@@ -8,13 +8,14 @@
     <head>
         <meta name = "viewport" content = "with=device-width" />
         <title>Index</title>
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
     </head>
     <body>
-        <div>
+        <div class = "text-center">
             @ViewBag.Greeting World (from the view)
             <p> We are going to have an exciting party. <br />
             </p>
-            <a asp-action="RsvpForm">RSVP Now</a>
+            <a class="btn btn-primary" asp-action="RsvpForm">RSVP Now</a>
         </div>
     </body>
 </html>
